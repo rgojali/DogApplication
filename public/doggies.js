@@ -31,9 +31,9 @@ document
 
 
                 const randomIndex = Math.floor(Math.random() * myImages.length);
-                if (randomIndex == 1) {
+                /*if (randomIndex == 1) {
                     randomIndex == 9;
-                }
+                }*/
 
 
 
@@ -69,9 +69,9 @@ document
 
 
                 const randomIndex = Math.floor(Math.random() * myImages.length);
-                if (randomIndex == 2) {
+                /*if (randomIndex == 2) {
                     randomIndex == 9;
-                }
+                }*/
 
                 //Commenting out cells to randomize images for every other cell
 
