@@ -1,0 +1,73 @@
+body {
+    margin-block-start: 2rem;
+}
+
+.container {
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+button {
+    margin-left: 2rem;
+    align-content: center;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.imgsofdogs {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.imgsofdogs img {
+    width: 100%;
+}
+
+.cell-1 {
+    background: deepskyblue;
+}
+
+.cell-2 {
+    background: orangered;
+}
+
+.cell-3 {
+    background: royalblue;
+}
+
+.cell-4 {
+    background: gold;
+}
+
+.cell-5 {
+    background: blueviolet;
+}
+
+.cell-6 {
+    background: limegreen;
+}
+
+.cell-7 {
+    background: coral;
+}
+
+.cell-8 {
+    background: lightseagreen;
+}
+
+.cell-9 {
+    background: maroon;
+}

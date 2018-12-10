@@ -1,0 +1,20 @@
+{
+  "name": "DogApplication",
+  "version": "1.0.0",
+  "description": "This folder contains a display of dogs in a 9x9 grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgojali/DogApplication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgojali/DogApplication/issues"
+  },
+  "homepage": "https://github.com/rgojali/DogApplication#readme"
+}

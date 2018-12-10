@@ -1,0 +1,53 @@
+html,
+body {
+    background-color: #ffeead;
+    margin: 10px;
+}
+
+.wrapper>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+
+.wrapper>div:nth-child(1n) {
+    background-color: #96ceb4;
+}
+
+.wrapper>div:nth-child(3n) {
+    background-color: #88d8b0;
+}
+
+.wrapper>div:nth-child(2n) {
+    background-color: #ff6f69;
+}
+
+.wrapper>div:nth-child(4n) {
+    background-color: #ffcc5c;
+}
+
+.wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    grid-template-rows: repeat(9, auto);
+    grid-gap: 3px;
+}
+
+.labrador {
+    grid-column: 1 / span 2;
+}
+
+.poodle {
+    grid-column: 1 / span 2;
+}
+
+.husky {
+    grid-column: 1 / span 2;
+}
+
+.beagle {
+    grid-column: 1 / span 2;
+}
